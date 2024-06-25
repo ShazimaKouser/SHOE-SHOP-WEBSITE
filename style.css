@@ -1,0 +1,560 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: lightgray;
+}
+
+.navbar {
+    background-color: brown;
+    display: flex;
+    justify-content: space-between;
+    height: 70px;
+    color: white;
+    position: fixed;
+    width: 100%;
+    z-index: 5;
+}
+
+.logo1 {
+    width: 15%;
+    text-align: center;
+}
+
+.Logo {
+    height: 100%;
+    border-radius: 50%;
+    padding: 4%;
+}
+
+ul {
+    display: flex;
+    gap: 25px;
+    padding-left: 0;
+    align-items: center;
+}
+
+li.nav:hover a {
+    color: black;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+li.nav {
+    list-style: none;
+}
+
+.card {
+    width: 8%;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+}
+
+.fa-magnifying-glass {
+    position: absolute;
+    color: black;
+    right: 31%;
+}
+
+.search {
+    display: flex;
+    align-items: center;
+}
+
+.bar {
+    height: 40%;
+    outline: none;
+    border: 3px solid #01ae9d;
+    background: white;
+    position: relative;
+    border-radius: 4px;
+    text-indent: 30px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+.hero-image1 {
+    height: 715px;
+}
+
+.hero-image {
+    width: 100%;
+}
+
+.overlay {
+    position: absolute;
+    top: 11%;
+    background-color: rgba(0, 0, 0, 0.521);
+    overflow: hidden;
+    height: 0;
+    transition: .5s ease;
+}
+
+.container:hover .overlay {
+    height: 100%;
+}
+
+.Overlay-text {
+    color: white;
+    font-size: 30px;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+
+h1 {
+    text-align: center;
+    color: brown;
+    height: 50px;
+}
+
+.p1 {
+    font-size: 28px;
+    width: 100%;
+    text-align: center;
+    color: black;
+    height: 200px;
+}
+
+.p1:hover {
+    text-shadow: 2px 2px 4px #0000006c;
+}
+
+.all {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 300px;
+}
+
+img.picture:hover {
+    box-shadow: 0 0 3px 3px gray;
+}
+
+img.picture1:hover {
+    box-shadow: 0 0 3px 3px gray;
+}
+
+img.picture2:hover {
+    box-shadow: 0 0 3px 3px gray;
+}
+
+img.picture {
+    width: 300px;
+    height: 200px;
+    transition: width 2s, height 2s;
+}
+
+img.picture:hover {
+    width: 350px;
+    height: 230px;
+}
+
+img.picture1 {
+    width: 300px;
+    height: 200px;
+    transition: width 2s, height 2s;
+}
+
+img.picture1:hover {
+    width: 350px;
+    height: 230px;
+}
+
+img.picture2 {
+    width: 300px;
+    height: 200px;
+    transition: width 2s, height 2s;
+}
+
+img.picture2:hover {
+    width: 350px;
+    height: 230px;
+}
+
+h1.col {
+    color: brown;
+    text-align: center;
+}
+
+.polaroid {
+    width: 18%;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.heading {
+    padding: 6% 0px;
+    height: 60pc;
+}
+
+.container-men {
+    text-align: center;
+    padding: 10px 20px;
+    font-size: 15px;
+}
+
+.Men {
+    height: 47vh;
+    padding: 10% 10%;
+    width: 100%;
+}
+
+.Men:hover {
+    transform: scale(1.1);
+}
+
+.collection1 {
+    display: flex;
+    justify-content: space-evenly;
+    padding-bottom: 3%;
+    flex-direction: row;
+
+}
+
+.collection2 {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.Women1 {
+    height: 46vh;
+    padding: 10% 10%;
+    width: 100%;
+}
+
+.Women1:hover {
+    transform: scale(1.1);
+}
+
+.women2 {
+    height: 45vh;
+    padding: 10% 10%;
+    width: 100%;
+}
+
+.women2:hover {
+    transform: scale(1.1);
+}
+
+.container-a {
+    text-align: center;
+    padding: 10px 20px;
+    font-size: 15px;
+}
+
+.p2 {
+    color: green;
+}
+
+.kids {
+    height: 47vh;
+    padding: 8% 10%;
+    width: 100%;
+}
+
+.kids:hover {
+    transform: scale(1.1);
+}
+
+.Brand {
+    padding: 6% 0px;
+}
+
+.Brands {
+    width: 15%;
+    height: 20vh;
+    border: 1px solid white;
+    border-radius: 4px;
+    padding: 5px;
+}
+
+.Brands-Name {
+    display: flex;
+    justify-content: space-evenly;
+    height: 150px;
+}
+
+.Brands:hover {
+    box-shadow: 0 0 2px 2px darkolivegreen;
+}
+
+h2.Top {
+    text-align: center;
+    color: brown;
+    padding-bottom: 2%;
+}
+
+.Blog {
+    background-image: url(pic/Blogs.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 83vh;
+}
+
+.Our-Blogs {
+    background-color: rgba(0, 0, 0, .5);
+    height: 100%;
+    width: 100%;
+}
+
+#blogs {
+    height: 560px;
+    padding: 6% 0px;
+}
+
+.caption {
+    line-height: 2.5;
+}
+
+img.Shipping:hover {
+    width: 20%;
+    cursor: pointer;
+}
+
+img.Shipping {
+    position: relative;
+    bottom: 11%;
+
+}
+
+h4 {
+    color: brown;
+}
+
+.offers {
+    height: 240px;
+}
+
+.orders {
+    display: flex;
+    justify-content: center;
+    height: 120px;
+    gap: 2%;
+}
+
+.card-1 {
+    width: 20%;
+    font-size: 18px;
+    background-color: beige;
+    text-align: center;
+    border-radius: 20px;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+
+h2.caption-0 {
+    line-height: 68px;
+}
+
+.contant {
+    color: beige;
+    width: 58%;
+    font-size: 25px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.button {
+    text-align: center;
+}
+
+button.btn {
+    padding: 10px 3%;
+    border-radius: 8px;
+    background-color: brown;
+    color: white;
+}
+
+button.btn:hover {
+    color: white;
+    cursor: pointer;
+    background: linear-gradient(to right, #c3a8d8, #af0404, #eebf78);
+}
+
+.About-us {
+    height: 530px;
+}
+
+.about-image {
+    width: 46%;
+    border-radius: 5%;
+}
+
+.about-pic {
+    display: flex;
+    gap: 4%;
+    margin: 0 5%;
+    padding: 6% 0px;
+}
+
+.about {
+    display: flex;
+    font-size: 20px;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    line-height: 2.2;
+}
+
+h2.font {
+    color: brown;
+    font-family: sans-serif;
+}
+
+button.btn2 {
+    padding: 10px 6%;
+    border-radius: 8px;
+    background-color: brown;
+    color: white;
+}
+
+button.btn2:hover {
+    color: white;
+    cursor: pointer;
+    background: linear-gradient(to right, #c3a8d8, #af0404, #eebf78);
+}
+
+img.contact-1 {
+    width: 100%;
+    height: 60vh;
+}
+
+
+.contact-1 {
+    background-image: url(pic/Slider1-1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 50vh;
+    display: flex;
+}
+
+.contact-us {
+    color: white;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 30px;
+    text-align: center;
+    line-height: 1.5;
+}
+
+.contact {
+    height: 400px;
+}
+
+button.btn3 {
+    width: 30%;
+    height: 43px;
+}
+
+.Email {
+    width: 26%;
+    height: 44px;
+    padding: 1%;
+    border: none;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.fa-paper-plane {
+    background-color: black;
+    height: 45px;
+    width: 4%;
+    font-size: 23px;
+    padding: 8px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+
+.fa-paper-plane:hover {
+    background-color: brown;
+    color: white;
+
+}
+
+.Foot {
+    position: absolute;
+    color: white;
+    height: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.foot-image {
+    width: 100%;
+    height: 50%;
+    position: absolute;
+}
+
+.Products {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.Products a:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.Design {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.Design a:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.Follow:hover {
+    cursor: pointer;
+}
+
+.zack {
+    width: 26%;
+}
+
+.foot-a {
+    font-family: system-ui;
+}
+
+.style {
+    font-family: ui-monospace;
+}
+
+.fa-whatsapp {
+    background-color: darkgreen;
+}
+
+.fa-facebook {
+    background-color: blue;
+}
+
+.fa-instagram {
+    background-color: red;
+}
+
+.fa-twitter {
+    background-color: skyblue;
+}
+
+.foot-b i:hover {
+    cursor: pointer;
+    background-color: black;
+}
