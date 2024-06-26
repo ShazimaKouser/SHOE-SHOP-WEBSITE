@@ -484,18 +484,11 @@
 
     .navbar {
         height: 10%;
-        width: 100%;
-        justify-content: space-around;
-    }
-
-    .logo1 {
-        height: 54px;
     }
 
     ul {
-        gap: 13px;
-        height: 51px;
-        font-size: 18px;
+        gap: 15px;
+        font-size: 14px;
         flex-wrap: wrap;
         padding: 0px 27px;
     }
@@ -512,12 +505,8 @@
         display: none;
     }
 
-    .fa-magnifying-glass {
-        width: 12%;
-    }
-
     h2.caption-0 {
-        line-height: 45px;
+        line-height: 40px;
     }
 
     .hero-image {
@@ -525,41 +514,30 @@
     }
 
     .p1 {
-        font-size: 17px;
+        font-size: 15px;
         height: 0%;
         padding: 10% 4%;
     }
 
     .hero-image1 {
-        width: 100%;
         height: 0%;
     }
 
     .collection1 {
         flex-wrap: wrap;
-        flex-direction: row;
-        min-width: 100vw;
-        gap: 2rem;
-        align-items: center;
-        width: 100%;
+        padding-bottom: 20px;
+        gap: 1rem;
     }
 
     .collection2 {
-        width: 100%;
         flex-wrap: wrap;
-        flex-direction: row;
-        min-width: 100vw;
-        gap: 2rem;
-        align-items: center;
-
+        gap: 1rem;
     }
 
     .all {
-        width: 100%;
-        height: 100%;
+        height: 150vh;
         align-items: center;
         flex-direction: column;
-        justify-content: space-evenly;
     }
 
     img.picture {
@@ -598,7 +576,7 @@
 
     .container:hover .overlay {
         height: 57%;
-        width: 118%;
+        width: 100%;
         top: 0;
     }
 
@@ -621,15 +599,15 @@
     }
 
     .container-a {
-        line-height: 1.9;
+        line-height: 1.8;
     }
 
     .Women1 {
-        height: 33vh;
+        height: 28vh;
     }
 
     .women2 {
-        height: 33vh;
+        height: 28vh;
     }
 
     h1.col {
@@ -637,14 +615,11 @@
     }
 
     .heading {
-        height: 85pc;
-        width: 100%;
+        height: 75pc;
     }
 
-    #blogs {
-        padding: 16% 0%;
-        height: 560px;
-        width: 100%;
+    .update {
+        font-size: 18px;
     }
 
     .Blog {
@@ -653,24 +628,20 @@
     }
 
     .contant {
-        font-size: 13px;
-    }
-
-    .about-pic {
-        height: 80%;
-    }
-
-    .about-image {
-        width: 46%;
+        font-size: 12px;
     }
 
     .about {
-        font-size: 10px;
+        font-size: 8px;
+    }
+
+    .fa-paper-plane {
+        width: 6vh;
     }
 
     .offers {
         width: 100%;
-        height: 400px;
+        height: 120vh;
     }
 
     .contact-1 {
@@ -678,11 +649,11 @@
     }
 
     .About-us {
-        height: 440px;
+        height: 80vh;
     }
 
     .card-1 {
-        width: 143px;
+        width: 30vh;
     }
 
     .Email {
@@ -692,7 +663,7 @@
 
     .fa-paper-plane {
         height: 37px;
-        width: 8%;
+        width: 10%;
         font-size: 18px;
     }
 
@@ -702,28 +673,27 @@
         height: 260px;
     }
 
-    .Brand {
-        padding: 0% 0px;
-        width: 100%;
-    }
-
     .Men {
-        height: 40vh;
+        height: 30vh;
         width: 100%;
     }
 
     .kids {
-        height: 33vh;
+        height: 28vh;
     }
 
     .polaroid {
-        height: 55vh;
-        width: 140px;
+        height: 50vh;
+        width: 120px;
     }
 
     .foot-image {
         width: 100%;
         height: 100%;
+    }
+
+    .zack {
+        width: 44vh;
     }
 
     .Foot {
@@ -737,7 +707,4 @@
         font-size: 16px;
     }
 
-    .foot-a {
-        font-size: 14px;
-    }
 }
