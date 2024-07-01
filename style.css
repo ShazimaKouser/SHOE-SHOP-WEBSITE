@@ -5,7 +5,7 @@
 }
 
 body {
-    background-color: lightgray;
+    background-color: #d2ced9;
 }
 
 .navbar {
@@ -14,9 +14,9 @@ body {
     justify-content: space-between;
     height: 70px;
     color: white;
-    position: fixed;
     width: 100%;
     z-index: 5;
+
 }
 
 .logo1 {
@@ -35,12 +35,15 @@ ul {
     gap: 25px;
     padding-left: 0;
     align-items: center;
+
 }
+
 
 li.nav:hover a {
     color: black;
     text-decoration: underline;
     cursor: pointer;
+
 }
 
 li.nav {
@@ -111,29 +114,18 @@ a {
     height: 100%;
 }
 
+
 h1 {
     text-align: center;
     color: brown;
     height: 50px;
 }
 
-.p1 {
-    font-size: 28px;
-    width: 100%;
-    text-align: center;
-    color: black;
-    height: 200px;
-}
-
-.p1:hover {
-    text-shadow: 2px 2px 4px #0000006c;
-}
-
 .all {
     display: flex;
     justify-content: space-evenly;
     width: 100%;
-    height: 300px;
+    height: 350px;
 }
 
 img.picture:hover {
@@ -151,18 +143,25 @@ img.picture2:hover {
 img.picture {
     width: 300px;
     height: 200px;
-    transition: width 2s, height 2s;
+    transition: width 1s, height 1s;
+    border: 1px solid white;
+    border-radius: 4px;
+    padding: 5px;
 }
 
 img.picture:hover {
     width: 350px;
     height: 230px;
+
 }
 
 img.picture1 {
     width: 300px;
     height: 200px;
-    transition: width 2s, height 2s;
+    transition: width 1s, height 1s;
+    border: 1px solid white;
+    border-radius: 4px;
+    padding: 5px;
 }
 
 img.picture1:hover {
@@ -173,7 +172,10 @@ img.picture1:hover {
 img.picture2 {
     width: 300px;
     height: 200px;
-    transition: width 2s, height 2s;
+    transition: width 1s, height 1s;
+    border: 1px solid white;
+    border-radius: 4px;
+    padding: 5px;
 }
 
 img.picture2:hover {
@@ -181,26 +183,18 @@ img.picture2:hover {
     height: 230px;
 }
 
-h1.col {
-    color: brown;
-    text-align: center;
-}
 
 .polaroid {
     width: 18%;
+    height: 360px;
     background-color: white;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-}
-
-.heading {
-    padding: 6% 0px;
-    height: 60pc;
 }
 
 .container-men {
     text-align: center;
-    padding: 10px 20px;
     font-size: 15px;
+    color: black;
+    line-height: 25px;
 }
 
 .Men {
@@ -210,20 +204,19 @@ h1.col {
 }
 
 .Men:hover {
-    transform: scale(1.1);
+    transform: scale(0.9);
 }
 
 .collection1 {
     display: flex;
     justify-content: space-evenly;
-    padding-bottom: 3%;
-    flex-direction: row;
-
 }
 
 .collection2 {
     display: flex;
     justify-content: space-evenly;
+    height: 570px;
+    align-items: center;
 }
 
 .Women1 {
@@ -233,7 +226,7 @@ h1.col {
 }
 
 .Women1:hover {
-    transform: scale(1.1);
+    transform: scale(0.9);
 }
 
 .women2 {
@@ -243,17 +236,14 @@ h1.col {
 }
 
 .women2:hover {
-    transform: scale(1.1);
+    transform: scale(0.9);
 }
 
 .container-a {
     text-align: center;
-    padding: 10px 20px;
     font-size: 15px;
-}
-
-.p2 {
-    color: green;
+    color: black;
+    line-height: 25px;
 }
 
 .kids {
@@ -263,11 +253,11 @@ h1.col {
 }
 
 .kids:hover {
-    transform: scale(1.1);
+    transform: scale(0.9);
 }
 
 .Brand {
-    padding: 6% 0px;
+    height: 300px;
 }
 
 .Brands {
@@ -278,15 +268,20 @@ h1.col {
     padding: 5px;
 }
 
+
 .Brands-Name {
     display: flex;
     justify-content: space-evenly;
     height: 150px;
+
 }
 
 .Brands:hover {
-    box-shadow: 0 0 2px 2px darkolivegreen;
+    display: block;
+    filter: drop-shadow(0 0 10px #0c0f11);
+
 }
+
 
 h2.Top {
     text-align: center;
@@ -310,7 +305,6 @@ h2.Top {
 
 #blogs {
     height: 560px;
-    padding: 6% 0px;
 }
 
 .caption {
@@ -364,6 +358,18 @@ h2.caption-0 {
     margin: 0 auto;
 }
 
+.polaroid {
+    background-color: #bdb8b8;
+    border: 3px solid floralwhite;
+    transition: all .15s ease-in-out;
+    color: honeydew;
+
+}
+
+.polaroid:hover {
+    box-shadow: 0 0 30px 0 honeydew inset, 0 0 20px 6px honeydew;
+}
+
 .button {
     text-align: center;
 }
@@ -373,12 +379,14 @@ button.btn {
     border-radius: 8px;
     background-color: brown;
     color: white;
+
 }
 
 button.btn:hover {
     color: white;
     cursor: pointer;
     background: linear-gradient(to right, #c3a8d8, #af0404, #eebf78);
+
 }
 
 .About-us {
@@ -388,6 +396,15 @@ button.btn:hover {
 .about-image {
     width: 46%;
     border-radius: 5%;
+    border: 1px solid white;
+    border-radius: 4px;
+    padding: 5px;
+
+}
+
+.about-image:hover {
+    box-shadow: black 0px 20px 30px -10px;
+    transition: all 0.4s ease 0s;
 }
 
 .about-pic {
@@ -404,7 +421,20 @@ button.btn:hover {
     justify-content: center;
     text-align: center;
     line-height: 2.2;
+    width: 580px;
+    height: 370px;
+    border-radius: 4%;
+    border: 6px solid rgb(189, 140, 183);
+    animation: mymove 5s infinite;
 }
+
+@keyframes mymove {
+    50% {
+        border-color: rgb(134, 197, 218);
+        border-radius: 6%;
+    }
+}
+
 
 h2.font {
     color: brown;
@@ -557,4 +587,8 @@ button.btn3 {
 .foot-b i:hover {
     cursor: pointer;
     background-color: black;
+}
+
+.foot-b {
+    font-size: 25px;
 }
