@@ -15,8 +15,6 @@ body {
     height: 70px;
     color: white;
     width: 100%;
-    z-index: 5;
-
 }
 
 .logo1 {
@@ -60,16 +58,19 @@ li.nav {
 .fa-magnifying-glass {
     position: absolute;
     color: black;
-    right: 31%;
+    left: 5%;
 }
 
 .search {
     display: flex;
     align-items: center;
+    position: relative;
+    width: 200px;
 }
 
 .bar {
-    height: 40%;
+    height: 50%;
+    width: 100%;
     outline: none;
     border: 3px solid #01ae9d;
     background: white;
@@ -84,7 +85,7 @@ a {
 }
 
 .hero-image1 {
-    height: 715px;
+    margin-bottom: 5%;
 }
 
 .hero-image {
@@ -93,10 +94,11 @@ a {
 
 .overlay {
     position: absolute;
-    top: 11%;
+    top: 12%;
     background-color: rgba(0, 0, 0, 0.521);
     overflow: hidden;
     height: 0;
+    width: 100%;
     transition: .5s ease;
 }
 
@@ -107,7 +109,6 @@ a {
 .Overlay-text {
     color: white;
     font-size: 30px;
-    width: 100%;
     text-align: center;
     display: flex;
     align-items: center;
@@ -125,7 +126,7 @@ h1 {
     display: flex;
     justify-content: space-evenly;
     width: 100%;
-    height: 350px;
+    margin-bottom: 10%;
 }
 
 img.picture:hover {
@@ -183,13 +184,6 @@ img.picture2:hover {
     height: 230px;
 }
 
-
-.polaroid {
-    width: 18%;
-    height: 360px;
-    background-color: white;
-}
-
 .container-men {
     text-align: center;
     font-size: 15px;
@@ -198,7 +192,6 @@ img.picture2:hover {
 }
 
 .Men {
-    height: 47vh;
     padding: 10% 10%;
     width: 100%;
 }
@@ -215,27 +208,18 @@ img.picture2:hover {
 .collection2 {
     display: flex;
     justify-content: space-evenly;
-    height: 570px;
     align-items: center;
+    margin-top: 2%;
+    margin-bottom: 8%;
 }
 
 .Women1 {
-    height: 46vh;
-    padding: 10% 10%;
+    padding: 8% 10%;
     width: 100%;
+    height: 47vh;
 }
 
 .Women1:hover {
-    transform: scale(0.9);
-}
-
-.women2 {
-    height: 45vh;
-    padding: 10% 10%;
-    width: 100%;
-}
-
-.women2:hover {
     transform: scale(0.9);
 }
 
@@ -256,13 +240,8 @@ img.picture2:hover {
     transform: scale(0.9);
 }
 
-.Brand {
-    height: 300px;
-}
-
 .Brands {
     width: 15%;
-    height: 20vh;
     border: 1px solid white;
     border-radius: 4px;
     padding: 5px;
@@ -294,7 +273,6 @@ h2.Top {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    height: 83vh;
 }
 
 .Our-Blogs {
@@ -304,7 +282,7 @@ h2.Top {
 }
 
 #blogs {
-    height: 560px;
+    margin-top: 8%;
 }
 
 .caption {
@@ -327,7 +305,8 @@ h4 {
 }
 
 .offers {
-    height: 240px;
+    margin-bottom: 8%;
+    margin-top: 5%;
 }
 
 .orders {
@@ -347,7 +326,7 @@ h4 {
 }
 
 h2.caption-0 {
-    line-height: 68px;
+    line-height: 100px;
 }
 
 .contant {
@@ -359,6 +338,7 @@ h2.caption-0 {
 }
 
 .polaroid {
+    width: 18%;
     background-color: #bdb8b8;
     border: 3px solid floralwhite;
     transition: all .15s ease-in-out;
@@ -375,7 +355,7 @@ h2.caption-0 {
 }
 
 button.btn {
-    padding: 10px 3%;
+    padding: 10px 6%;
     border-radius: 8px;
     background-color: brown;
     color: white;
@@ -389,9 +369,6 @@ button.btn:hover {
 
 }
 
-.About-us {
-    height: 530px;
-}
 
 .about-image {
     width: 46%;
@@ -454,18 +431,13 @@ button.btn2:hover {
     background: linear-gradient(to right, #c3a8d8, #af0404, #eebf78);
 }
 
-img.contact-1 {
-    width: 100%;
-    height: 60vh;
-}
-
 
 .contact-1 {
     background-image: url(pic/Slider1-1.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    height: 50vh;
+    height: 300px;
     display: flex;
 }
 
@@ -480,8 +452,12 @@ img.contact-1 {
     line-height: 1.5;
 }
 
+.About-us {
+    margin-top: 8%;
+}
+
 .contact {
-    height: 400px;
+    margin-bottom: 5%;
 }
 
 button.btn3 {
@@ -515,19 +491,23 @@ button.btn3 {
 
 }
 
+.Footer {
+    position: relative;
+}
+
 .Foot {
     position: absolute;
     color: white;
-    height: 50%;
     display: flex;
-    align-items: center;
+    width: 100%;
+    top: 0%;
+    left: 50%;
+    transform: translate(-50%, 100%);
     justify-content: space-around;
 }
 
 .foot-image {
     width: 100%;
-    height: 50%;
-    position: absolute;
 }
 
 .Products {
