@@ -142,7 +142,7 @@ img.picture2:hover {
 }
 
 img.picture {
-    width: 300px;
+    width: 100%;
     height: 200px;
     transition: width 1s, height 1s;
     border: 1px solid white;
@@ -156,8 +156,9 @@ img.picture:hover {
 
 }
 
+
 img.picture1 {
-    width: 300px;
+    width: 100%;
     height: 200px;
     transition: width 1s, height 1s;
     border: 1px solid white;
@@ -171,7 +172,7 @@ img.picture1:hover {
 }
 
 img.picture2 {
-    width: 300px;
+    width: 100%;
     height: 200px;
     transition: width 1s, height 1s;
     border: 1px solid white;
@@ -216,7 +217,7 @@ img.picture2:hover {
 .Women1 {
     padding: 8% 10%;
     width: 100%;
-    height: 47vh;
+    height: 280px;
 }
 
 .Women1:hover {
@@ -231,7 +232,7 @@ img.picture2:hover {
 }
 
 .kids {
-    height: 47vh;
+    height: 280px;
     padding: 8% 10%;
     width: 100%;
 }
