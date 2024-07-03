@@ -99,7 +99,7 @@
     }
 
     .Women1 {
-        height: 85vh;
+        height: 50vh;
     }
 
     .polaroid {
@@ -124,12 +124,19 @@
     }
 
     .about {
-        font-size: 28px;
-        height: 55vh;
+        font-size: 25px;
+        height: 40vh;
+        width: 70%;
     }
 
     .about-image {
-        height: 55vh;
+        height: 33vh;
+        width: 70%;
+    }
+
+    .about-pic {
+        display: flex;
+        flex-direction: column;
     }
 
     .card-1 {
@@ -147,7 +154,7 @@
     }
 
     .kids {
-        height: 85vh;
+        height: 50vh;
     }
 
     .zack {
@@ -187,7 +194,7 @@
     }
 
     .search {
-        font-size: 30px;
+        display: none;
     }
 
     .container:hover .overlay {
@@ -289,12 +296,19 @@
     }
 
     .about {
-        font-size: 23px;
-        height: 55vh;
+        font-size: 20px;
+        height: 40vh;
+        width: 70%;
     }
 
     .about-image {
-        height: 55vh;
+        height: 33vh;
+        width: 70%;
+    }
+
+    .about-pic {
+        display: flex;
+        flex-direction: column;
     }
 
     .card-1 {
@@ -334,13 +348,8 @@
         height: 100px;
     }
 
-    ul {
-        font-size: 25px;
-    }
-
-    .bar {
-        font-size: 30px;
-        text-indent: 30%;
+    .nav1 {
+        font-size: 26px;
     }
 
     .hero-image {
@@ -353,7 +362,7 @@
     }
 
     .search {
-        font-size: 30px;
+        display: none;
     }
 
     .container:hover .overlay {
@@ -455,12 +464,19 @@
     }
 
     .about {
-        font-size: 20px;
-        height: 55vh;
+        font-size: 18px;
+        height: 40vh;
+        width: 70%;
     }
 
     .about-image {
-        height: 55vh;
+        height: 33vh;
+        width: 70%;
+    }
+
+    .about-pic {
+        display: flex;
+        flex-direction: column;
     }
 
     .card-1 {
@@ -561,8 +577,12 @@
         height: 180px;
     }
 
+    .Overlay-text {
+        font-size: 14px;
+    }
+
     .container:hover .overlay {
-        height: 60%;
+        height: 55%;
         width: 100%;
     }
 
@@ -575,9 +595,15 @@
     }
 
     .about {
-        font-size: 10px;
+        font-size: 13px;
+        height: 40vh;
+        width: 100%;
     }
 
+    .about-pic {
+        display: flex;
+        flex-direction: column;
+    }
 
     .card-1 {
         width: 43%;
@@ -618,8 +644,7 @@
     }
 
     .about-image {
-        height: 365px;
-        width: 50%;
+        width: 100%;
     }
 
     .orders {

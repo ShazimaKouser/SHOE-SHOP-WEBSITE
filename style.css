@@ -12,9 +12,8 @@ body {
     background-color: brown;
     display: flex;
     justify-content: space-between;
-    height: 70px;
+    height: 100px;
     color: white;
-    width: 100%;
 }
 
 .logo1 {
@@ -28,9 +27,75 @@ body {
     padding: 4%;
 }
 
-ul {
+
+.hamburger-icon {
+    border: none;
+    background-color: transparent;
+    display: none;
+}
+
+.hamburger-icon input[type="checkbox"] {
+    appearance: none;
+}
+
+@media only screen and (max-width: 750px) {
+    header {
+        display: block;
+    }
+
+    .nav2 {
+        height: 0;
+        font-size: 15px;
+        overflow: hidden;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        transition: all 0.2s ease-in-out;
+    }
+    .hamburger-icon {
+        display: block;
+    }
+
+    .hamburger-icon .fa-bars,
+    .hamburger-icon .fa-x {
+        color: white;
+        font-size: 25px;
+        cursor: pointer;
+    }
+
+
+    .fa-x {
+        display: none;
+    }
+
+    header:has(.hamburger-icon input[type="checkbox"]) .fa-x {
+        display: none;
+    }
+
+    header:has(.hamburger-icon input[type="checkbox"]:checked) .nav2 {
+        height: 500px;
+        gap: 0;
+        z-index: 1;
+    }
+
+    header:has(.hamburger-icon input[type="checkbox"]:checked) .fa-bars {
+        display: none;
+    }
+
+    header:has(.hamburger-icon input[type="checkbox"]:checked) .fa-x {
+        display: inline-block;
+    }
+}
+
+.nav2 {
     display: flex;
-    gap: 25px;
+    gap: 2rem;
+}
+
+.nav1 {
+    display: flex;
+    flex-direction: row;
     padding-left: 0;
     align-items: center;
 
@@ -94,7 +159,7 @@ a {
 
 .overlay {
     position: absolute;
-    top: 12%;
+    top: 0;
     background-color: rgba(0, 0, 0, 0.521);
     overflow: hidden;
     height: 0;
@@ -108,7 +173,9 @@ a {
 
 .Overlay-text {
     color: white;
-    font-size: 30px;
+    width: 45%;
+    margin: 0 auto;
+    font-size: 25px;
     text-align: center;
     display: flex;
     align-items: center;
@@ -387,19 +454,22 @@ button.btn:hover {
 .about-pic {
     display: flex;
     gap: 4%;
-    margin: 0 5%;
+    margin: 0 auto;
     padding: 6% 0px;
+    width: 80%;
+    align-items: center;
 }
 
 .about {
     display: flex;
-    font-size: 20px;
+    font-size: 16px;
     flex-direction: column;
     justify-content: center;
     text-align: center;
     line-height: 2.2;
-    width: 580px;
-    height: 370px;
+    width: 440px;
+    margin: 0 auto;
+    height: 300px;
     border-radius: 4%;
     border: 6px solid rgb(189, 140, 183);
     animation: mymove 5s infinite;
